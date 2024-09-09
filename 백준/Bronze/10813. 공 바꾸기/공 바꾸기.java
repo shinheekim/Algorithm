@@ -31,7 +31,6 @@ public class Main {
         for (int printNum : basket) {
             sb.append(printNum).append(" ");
         }
-        System.out.print(sb.toString());
-
+        System.out.print(sb);
     }
 }
